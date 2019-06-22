@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raml version="2.0" xmlns="raml20.xsd">
+  <cmData type="actual">
+    <header>
+      <log dateTime="2017-05-08T10:01:44" action="created" appInfo="ActualExporter">InternalValues are used</log>
+    </header>
+    <managedObject class="BSC" version="S15" distName="PLMN-PLMN/BSC-322855" id="1344827">
+      <list name="bscOptions">
+        <p>0</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>10</p>
+        <p>11</p>
+        <p>12</p>
+        <p>13</p>
+        <p>14</p>
+        <p>15</p>
+        <p>16</p>
+        <p>17</p>
+        <p>21</p>
+        <p>24</p>
+        <p>29</p>
+        <p>31</p>
+        <p>32</p>
+        <p>33</p>
+        <p>35</p>
+        <p>39</p>
+        <p>40</p>
+        <p>42</p>
+        <p>43</p>
+        <p>44</p>
+        <p>45</p>
+        <p>46</p>
+        <p>47</p>
+        <p>48</p>
+        <p>50</p>
+        <p>51</p>
+        <p>54</p>
+        <p>56</p>
+        <p>61</p>
+        <p>62</p>
+        <p>68</p>
+        <p>69</p>
+        <p>72</p>
+        <p>82</p>
+        <p>83</p>
+        <p>85</p>
+        <p>86</p>
+        <p>96</p>
+        <p>98</p>
+        <p>100</p>
+        <p>104</p>
+        <p>105</p>
+        <p>115</p>
+        <p>116</p>
+        <p>121</p>
+        <p>132</p>
+        <p>135</p>
+        <p>145</p>
+        <p>150</p>
+      </list>
+      <p name="dcsMacrocellThreshold">2</p>
+      <p name="dcsMicrocellThreshold">3</p>
+      <p name="name">B4383N</p>
+      <p name="adjCellFreqsInMeasBAInfo">10</p>
+      <p name="alrmChFail">35</p>
+      <p name="alrmNoOfSei">10</p>
+      <p name="alrmSchFail">80</p>
+      <p name="alrmSdcch">2</p>
+      <p name="alrmSeizReq">100</p>
+      <p name="alrmTch">5</p>
+      <p name="amhLowerLoadThreshold">20</p>
+      <p name="amhMaxLoadOfTgtCell">75</p>
+      <p name="amhTrhoGuardTime">60</p>
+      <p name="amhUpperLoadThreshold">80</p>
+      <p name="amrConfInHandovers">1</p>
+      <p name="amrSetGradesEnabl">0</p>
+      <p name="ansiEnvironment">0</p>
+      <p name="batteryBackupTimer">30</p>
+      <p name="bcsuLoadThr">150</p>
+      <p name="bhTimerDurStartReact">4</p>
+      <p name="bhTimerDurStopReact">10</p>
+      <p name="bscType">41</p>
+      <p name="btsLoadDepTchRateLower">40</p>
+      <p name="btsLoadDepTchRateUpper">60</p>
+      <p name="cPlanePacketDropPeriod">0</p>
+      <p name="callReleaseLimit">5</p>
+      <p name="csPacketDropPeriod">25</p>
+      <p name="csUdpMuxPort">49152</p>
+      <p name="delayHoPcEmergencyCalls">5</p>
+      <p name="dfca144Connection_softBlockingCn">14</p>
+      <p name="dfcaAmrFrConnection_softBlockingCn">7</p>
+      <p name="dfcaAmrHrConnection_softBlockingCn">12</p>
+      <p name="dfcaFrConnection_softBlockingCn">12</p>
+      <p name="dfcaHrConnection_softBlockingCn">14</p>
+      <p name="disableExtDr">0</p>
+      <p name="disableIntHo">0</p>
+      <p name="dtmFragmentationPenalty">3</p>
+      <p name="emerCallOnFacch">0</p>
+      <p name="extraTrxBcsuNumber">5</p>
+      <p name="extraTrxMaxTrxInBcsu">700</p>
+      <p name="fcdRelPriThres">1</p>
+      <p name="fepInPcHoUse">0</p>
+      <p name="frTchALim">30</p>
+      <p name="freeTSLsCsDowngrade">95</p>
+      <p name="freeTSLsCsUpgrade">4</p>
+      <p name="freqInMeasBAInfo">32</p>
+      <p name="gprsTerritoryCalc">2</p>
+      <p name="gsmMacrocellThreshold">4</p>
+      <p name="gsmMicrocellThreshold">5</p>
+      <p name="hoPrefOrderInterfDl">0</p>
+      <p name="hoPrefOrderInterfUl">0</p>
+      <p name="hrTchALim">30</p>
+      <p name="inactCriteria">0</p>
+      <p name="inactEventsPerHour">10</p>
+      <p name="incomeRateThreshold">127</p>
+      <p name="initAmrChannelRate">1</p>
+      <p name="internalHoToExternal">0</p>
+      <p name="intraSegSdcchHoGuard">255</p>
+      <p name="ishoPreferredForNonDtmMs">0</p>
+      <p name="lapdLoadThr">150</p>
+      <p name="loadRateChSearch">100</p>
+      <p name="mPlanePacketDropPeriod">0</p>
+      <p name="maxBcfCapacity">2500</p>
+      <p name="maxBtsCapacity">4200</p>
+      <p name="maxHldSdcch">30</p>
+      <p name="maxHldTch">120</p>
+      <p name="maxOnHiIf">50</p>
+      <p name="maxTchTransactionRate">50</p>
+      <p name="maxTrxCapacityHw">3500</p>
+      <p name="maxTrxCapacityReal">2000</p>
+      <p name="meanBepLimitUL_Prof0_2tsl">21</p>
+      <p name="meanBepLimitUL_Prof0_3tsl">26</p>
+      <p name="meanBepLimitUL_Prof0_4tsl">30</p>
+      <p name="meanBepLimitUL_Prof1_2tsl">20</p>
+      <p name="meanBepLimitUL_Prof1_3tsl">25</p>
+      <p name="meanBepLimitUL_Prof1_4tsl">30</p>
+      <p name="meanBepLimitUL_Prof2_3tsl">24</p>
+      <p name="meanBepLimitUL_Prof2_4tsl">29</p>
+      <p name="measPrdCh">60</p>
+      <p name="measPrdFail">60</p>
+      <p name="measPrdSdcch">60</p>
+      <p name="measTchMhold">60</p>
+      <p name="minHiIf">4</p>
+      <p name="minHldTch">2</p>
+      <p name="msDistanceBehaviour">255</p>
+      <p name="msSpeedC11">10</p>
+      <p name="msSpeedC12">30</p>
+      <p name="nccrControlMode">4</p>
+      <p name="nccrIdleModeRepPeriod">5</p>
+      <p name="nccrNeighborCellPenalty">6</p>
+      <p name="nccrReturnOldCellTime">10</p>
+      <p name="nccrTargetCellPenalty">10</p>
+      <p name="nccrTraModeRepPeriod">0</p>
+      <p name="noOfPrefCells">3</p>
+      <p name="nokBtsOffHour">18</p>
+      <p name="nokBtsOffMinute">0</p>
+      <p name="nokBtsOnHour">8</p>
+      <p name="nokBtsOnMinute">0</p>
+      <p name="ordinaryCallOnFacch">0</p>
+      <p name="packetLossTimerDurStartReact">10</p>
+      <p name="packetLossTimerDurStopReact">100</p>
+      <p name="pagingAnsOnFacch">0</p>
+      <p name="pcuMaxNoDLtbfInCH">9</p>
+      <p name="pcuMaxNoULtbfInCH">7</p>
+      <p name="prdHighIf">120</p>
+      <p name="prdNokBts">120</p>
+      <p name="preemptionUsageInHO">1</p>
+      <p name="psPacketDropPeriod">25</p>
+      <p name="psUdpMuxPort">49154</p>
+      <p name="qcActionTriggerThr_drop">0</p>
+      <p name="qcActionTriggerThr_nccr">0</p>
+      <p name="qcActionTriggerThr_qosRenego">0</p>
+      <p name="qcActionTriggerThr_realloca">25</p>
+      <p name="reestablishOnFacch">0</p>
+      <p name="rnwConfId">13242</p>
+      <p name="rnwFallbackConfId">13242</p>
+      <p name="rnwPlanConfId">13242</p>
+      <p name="rnwPlanDatabaseState">8</p>
+      <p name="rtsl0PrefInTCHAlloc">0</p>
+      <p name="rxAntSupPer">65535</p>
+      <p name="rxLevBalance">5</p>
+      <p name="rxLevelBasedTchAccess">0</p>
+      <p name="rxqualLimitUL_Prof0_2tsl">5</p>
+      <p name="rxqualLimitUL_Prof0_3tsl">3</p>
+      <p name="rxqualLimitUL_Prof0_4tsl">1</p>
+      <p name="rxqualLimitUL_Prof1_2tsl">5</p>
+      <p name="rxqualLimitUL_Prof1_3tsl">3</p>
+      <p name="rxqualLimitUL_Prof1_4tsl">1</p>
+      <p name="rxqualLimitUL_Prof2_3tsl">3</p>
+      <p name="rxqualLimitUL_Prof2_4tsl">2</p>
+      <p name="schedStepSizeDlHighPrior">3</p>
+      <p name="schedStepSizeDlLowPrior">12</p>
+      <p name="schedStepSizeDlNormPrior">6</p>
+      <p name="schedStepSizeUlPrior1">3</p>
+      <p name="schedStepSizeUlPrior2">6</p>
+      <p name="schedStepSizeUlPrior3">9</p>
+      <p name="schedStepSizeUlPrior4">12</p>
+      <p name="schedulingWeight_backgroundARP1">20</p>
+      <p name="schedulingWeight_backgroundARP2">10</p>
+      <p name="schedulingWeight_backgroundARP3">5</p>
+      <p name="schedulingWeight_streamingARP1">20</p>
+      <p name="schedulingWeight_streamingARP2">10</p>
+      <p name="schedulingWeight_streamingARP3">5</p>
+      <p name="sdcchAlLimit">30</p>
+      <p name="signallingPointCodeIN0">-1</p>
+      <p name="signallingPointCodeIN1">23</p>
+      <p name="signallingPointCodeNA0">9612</p>
+      <p name="signallingPointCodeNA1">160388</p>
+      <p name="slowAmrLaEnabled">0</p>
+      <p name="supervisionPeriod">15</p>
+      <p name="tchRateInternalHo">4</p>
+      <p name="tchTransactionCount">10</p>
+      <p name="terrUpdGuardTGprs">30</p>
+      <p name="tmAbisCplane">46</p>
+      <p name="tmAbisMplane">46</p>
+      <p name="tmAbisUplaneCs">46</p>
+      <p name="tmAbisUplanePs">34</p>
+      <p name="tmClockSync">46</p>
+      <p name="tmSiteSupport">0</p>
+      <p name="triggerMeasPeriod">128</p>
+      <p name="tsAf1Wfq">4</p>
+      <p name="tsAf2Wfq">8</p>
+      <p name="tsAf3Wfq">8</p>
+      <p name="tsAf4Wfq">8</p>
+      <p name="tsBeWfq">1</p>
+      <p name="variableDlStepSize">0</p>
+      <p name="vpAf1">1</p>
+      <p name="vpAf2">3</p>
+      <p name="vpAf3">4</p>
+      <p name="vpAf4">5</p>
+      <p name="vpBe">0</p>
+      <p name="vpEf">6</p>
+      <p name="wcdmaFddNccrEnabled">1</p>
+      <p name="wcdmaFddNccrPreferred">1</p>
+      <p name="wcdmaRanSaiPenalty">127</p>
+    </managedObject>
+    <managedObject class="BCF" version="S15" distName="PLMN-PLMN/BSC-322855/BCF-1" id="2120710">
+      <p name="abisInterfaceConnectionType">2</p>
+      <p name="adminState">1</p>
+      <p name="autoConfig">0</p>
+      <p name="autoUnlAllowed">0</p>
+      <p name="batteryBackupProcedure">0</p>
+      <p name="bcchTrxBatbuTimer">0</p>
+      <list name="bcfOutputInUse">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </list>
+      <p name="bcfType">8</p>
+      <p name="bcfUpToDate">0</p>
+      <p name="btsCuPlaneIpAddress">10.57.92.188</p>
+      <p name="btsIpv4SubnetMasklengthCUplane">27</p>
+      <p name="btsIpv4SubnetMasklengthMplane">27</p>
+      <p name="btsMPlaneIpAddress">10.37.158.188</p>
+      <p name="bu1AbisThroughputThreshold">75</p>
+      <p name="bu2AbisThroughputThreshold">90</p>
+      <p name="clockSource">2</p>
+      <p name="dlCommittedInformationRate">6000</p>
+      <p name="etpBcfId">6</p>
+      <p name="flexiEdgeAbisOverIpEthernetUsage">0</p>
+      <p name="flexiEdgeAdditional2E1T1Usage">1</p>
+      <p name="lapdLinkName">VM001</p>
+      <p name="lapdLinkNumber">2463</p>
+      <p name="masterClockBcf">1</p>
+      <p name="maxBtsMultiplexingWaitTime">2</p>
+      <p name="maxEtpMultiplexingWaitTime">2</p>
+      <p name="maximumMultiplexingPacketSize">300</p>
+      <p name="normTrxBatbuTimer">0</p>
+      <p name="paSatelliteUse">0</p>
+      <p name="packetAbisBcfGroupId">65535</p>
+      <p name="packetAbisCongestionControl">1</p>
+      <p name="packetDelayVariation">5000</p>
+      <p name="pl1ThresholdPacketLoss">14</p>
+      <p name="pl2ThresholdPacketLoss">28</p>
+      <p name="rxDifferenceLimit">10</p>
+      <p name="synchEnabled">1</p>
+      <p name="synchStatus">1</p>
+      <p name="ulCommittedBurstSize">1522</p>
+      <p name="ulCommittedInformationRate">6000</p>
+      <p name="uplinkTrafficShaping">1</p>
+      <p name="usedCsUdpMuxPort">49152</p>
+      <p name="usedEtpId">1</p>
+      <p name="usedPsUdpMuxPort">49154</p>
+      <p name="vlanId">4095</p>
+    </managedObject>
+    <managedObject class="BTS" version="S15" distName="PLMN-PLMN/BSC-322855/BCF-1/BTS-1" id="2121083">
+      <list name="notAllowedAccessClasses">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </list>
+      <list name="plmnPermitted">
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+        <p>1</p>
+      </list>
+      <p name="frequencyBandInUse">0</p>
+      <p name="gprsMsTxPwrMaxCCH1x00">0</p>
+      <p name="minMsTxPower">19</p>
+      <p name="msTxPwrMaxCCH1x00">0</p>
+      <p name="msTxPwrMaxGSM1x00">29</p>
+      <p name="name">${sectorName}</p>
+      <p name="adaptiveLaAlgorithm">0</p>
+      <p name="adminState">1</p>
+      <p name="allowIMSIAttachDetach">1</p>
+      <p name="amhLowerLoadThreshold">-1</p>
+      <p name="amhMaxLoadOfTgtCell">-1</p>
+      <p name="amhTrhoGuardTime">-1</p>
+      <p name="amhUpperLoadThreshold">70</p>
+      <p name="amrConfFrCodecModeSet">149</p>
+      <p name="amrConfFrDlThreshold1">8</p>
+      <p name="amrConfFrDlThreshold2">14</p>
+      <p name="amrConfFrDlThreshold3">22</p>
+      <p name="amrConfFrHysteresis1">2</p>
+      <p name="amrConfFrHysteresis2">2</p>
+      <p name="amrConfFrHysteresis3">2</p>
+      <p name="amrConfFrInitCodecMode">0</p>
+      <p name="amrConfFrStartMode">0</p>
+      <p name="amrConfFrUlThreshold1">8</p>
+      <p name="amrConfFrUlThreshold2">14</p>
+      <p name="amrConfFrUlThreshold3">22</p>
+      <p name="amrConfHrCodecModeSet">4</p>
+      <p name="amrConfHrDlThreshold1">22</p>
+      <p name="amrConfHrDlThreshold2">28</p>
+      <p name="amrConfHrDlThreshold3">0</p>
+      <p name="amrConfHrHysteresis1">2</p>
+      <p name="amrConfHrHysteresis2">2</p>
+      <p name="amrConfHrHysteresis3">0</p>
+      <p name="amrConfHrInitCodecMode">0</p>
+      <p name="amrConfHrStartMode">0</p>
+      <p name="amrConfHrUlThreshold1">22</p>
+      <p name="amrConfHrUlThreshold2">28</p>
+      <p name="amrConfHrUlThreshold3">0</p>
+      <p name="amrHoFrInHoThrDlRxQual">1</p>
+      <p name="amrHoFrSupReuBadCiThr">10</p>
+      <p name="amrHoFrSupReuGoodCiThr">17</p>
+      <p name="amrHoFrThrDlRxQual">4</p>
+      <p name="amrHoFrThrUlRxQual">4</p>
+      <p name="amrHoHrInHoThrDlRxQual">4</p>
+      <p name="amrHoHrSupReuBadCiThr">10</p>
+      <p name="amrHoHrSupReuGoodCiThr">17</p>
+      <p name="amrHoHrThrDlRxQual">4</p>
+      <p name="amrHoHrThrUlRxQual">4</p>
+      <p name="amrPocFrPcLThrDlRxQual">4</p>
+      <p name="amrPocFrPcLThrUlRxQual">4</p>
+      <p name="amrPocFrPcUThrDlRxQual">1</p>
+      <p name="amrPocFrPcUThrUlRxQual">1</p>
+      <p name="amrPocHrPcLThrDlRxQual">4</p>
+      <p name="amrPocHrPcLThrUlRxQual">4</p>
+      <p name="amrPocHrPcUThrDlRxQual">1</p>
+      <p name="amrPocHrPcUThrUlRxQual">1</p>
+      <p name="antennaHopping">0</p>
+      <p name="bsIdentityCodeBCC">7</p>
+      <p name="bsIdentityCodeNCC">3</p>
+      <p name="btsIsHopping">0</p>
+      <p name="btsLoadInSeg">0</p>
+      <p name="btsLoadThreshold">50</p>
+      <p name="btsMeasAver">4</p>
+      <p name="btsSpLoadDepTchRateLower">90</p>
+      <p name="btsSpLoadDepTchRateUpper">98</p>
+      <p name="callReestablishmentAllowed">1</p>
+      <p name="cellBarQualify">0</p>
+      <p name="cellBarred">0</p>
+      <p name="cellId">10005</p>
+      <p name="cellLoadForChannelSearch">0</p>
+      <p name="cellNumberInBtsHw">255</p>
+      <p name="cellReselectHysteresis">3</p>
+      <p name="cellReselectOffset">0</p>
+      <p name="cellReselectParamInd">0</p>
+      <p name="cnThreshold">15</p>
+      <p name="cs3Cs4Enabled">1</p>
+      <p name="dedicatedGPRScapacity">1</p>
+      <p name="defaultGPRScapacity">67</p>
+      <p name="directGPRSAccessBts">0</p>
+      <p name="diversityUsed">1</p>
+      <p name="dlNoiseLevel">3</p>
+      <p name="drInUse">1</p>
+      <p name="drMethod">1</p>
+      <p name="dtxMode">1</p>
+      <p name="earlySendingIndication">1</p>
+      <p name="egprsEnabled">1</p>
+      <p name="egprsInitMcsAckMode">7</p>
+      <p name="egprsInitMcsUnAckMode">7</p>
+      <p name="egprsLinkAdaptEnabled">2</p>
+      <p name="egprsMaxBlerAckMode">50</p>
+      <p name="egprsMaxBlerUnAckMode">10</p>
+      <p name="egprsMeanBepOffset8psk">20</p>
+      <p name="egprsMeanBepOffsetGmsk">0</p>
+      <p name="emergencyCallRestricted">0</p>
+      <p name="fddQMin">6</p>
+      <p name="fddQMinOffset">0</p>
+      <p name="fddQOffset">0</p>
+      <p name="fddRscpMin">6</p>
+      <p name="forcedHrCiAverPeriod">15</p>
+      <p name="forcedHrModeHysteresis">3</p>
+      <p name="gprsCapacityThroughputFactor">80</p>
+      <p name="gprsEnabled">1</p>
+      <p name="gprsMsTxpwrMaxCCH">5</p>
+      <p name="gprsNonBCCHRxlevLower">10</p>
+      <p name="gprsNonBCCHRxlevUpper">15</p>
+      <p name="gprsRxlevAccessMin">5</p>
+      <p name="gsmPriority">0</p>
+      <p name="hcsPriorityClass">0</p>
+      <p name="hcsThreshold">255</p>
+      <p name="hoppingMode">0</p>
+      <p name="hoppingSequenceNumber1">21</p>
+      <p name="hoppingSequenceNumber2">63</p>
+      <p name="hoppingSequenceNumber3">0</p>
+      <p name="idleStateBcchAllocListId">0</p>
+      <p name="inactEndTimeHour">18</p>
+      <p name="inactEndTimeMinute">0</p>
+      <p name="inactStartTimeHour">8</p>
+      <p name="inactStartTimeMinute">0</p>
+      <p name="inactWeekDays">0</p>
+      <p name="csAckDl">7</p>
+      <p name="csAckUl">7</p>
+      <p name="csUnackDl">7</p>
+      <p name="csUnackUl">7</p>
+      <p name="interferenceAveragingProcessAverPeriod">6</p>
+      <p name="interferenceAveragingProcessBoundary0">0</p>
+      <p name="interferenceAveragingProcessBoundary1">8</p>
+      <p name="interferenceAveragingProcessBoundary2">13</p>
+      <p name="interferenceAveragingProcessBoundary3">18</p>
+      <p name="interferenceAveragingProcessBoundary4">25</p>
+      <p name="interferenceAveragingProcessBoundary5">63</p>
+      <p name="locationAreaIdLAC">1381</p>
+      <p name="locationAreaIdMCC">432</p>
+      <p name="locationAreaIdMNC">11</p>
+      <p name="lowPriorityThr">14</p>
+      <p name="maioOffset">0</p>
+      <p name="maioStep">1</p>
+      <p name="masterBcf">1</p>
+      <p name="maxGPRSCapacity">100</p>
+      <p name="maxNumberOfRepetition">35</p>
+      <p name="maxNumberRetransmission">1</p>
+      <p name="maxQueueLength">50</p>
+      <p name="maxTimeLimitDirectedRetry">5</p>
+      <p name="measListUsedDuringMeas">1</p>
+      <p name="measurementBCCHAllocation">1</p>
+      <p name="minTimeLimitDirectedRetry">2</p>
+      <p name="msMaxDistInCallSetup">255</p>
+      <p name="msPriorityUsedInQueueing">0</p>
+      <p name="msTxPwrMaxCCH">5</p>
+      <p name="msTxPwrMaxGSM">2</p>
+      <p name="multiBandCell">1</p>
+      <p name="multiBandCellReporting">2</p>
+      <p name="nbrOfSlotsSpreadTrans">14</p>
+      <p name="newEstabCausesSupport">0</p>
+      <p name="noOfBlocksForAccessGrant">1</p>
+      <p name="noOfMFramesBetweenPaging">4</p>
+      <p name="nonBCCHLayerOffset">0</p>
+      <p name="nsei">13218</p>
+      <p name="nwName">${sectorName}</p>
+      <p name="pcuCsHopping">0</p>
+      <p name="pcuCsNonHopping">2</p>
+      <p name="pcuDlBlerCpHopping">20</p>
+      <p name="pcuDlBlerCpNonHop">90</p>
+      <p name="pcuDlLaRiskLevel">20</p>
+      <p name="pcuIdentifier">18</p>
+      <p name="pcuUlBlerCpHopping">24</p>
+      <p name="pcuUlBlerCpNonHop">90</p>
+      <p name="pcuUlLaRiskLevel">10</p>
+      <p name="penaltyTime">0</p>
+      <p name="powerOffset">0</p>
+      <p name="preferBCCHfreqGPRS2">1</p>
+      <p name="prioritySearchThr">3</p>
+      <p name="psei">18</p>
+      <p name="qSearchI">7</p>
+      <p name="qSearchP">7</p>
+      <p name="queuePriorityNonUrgentHo">9</p>
+      <p name="queuePriorityUsed">1</p>
+      <p name="queueingPriorityCall">10</p>
+      <p name="queueingPriorityHandover">9</p>
+      <p name="raReselectHysteresis">2</p>
+      <p name="rac">1</p>
+      <p name="radioLinkTimeout">7</p>
+      <p name="radioLinkTimeoutAmr">7</p>
+      <p name="radioLinkTimeoutAmrHr">15</p>
+      <p name="reselectionAlgorithmHysteresis">0</p>
+      <p name="rxLevAccessMin">8</p>
+      <p name="scaleOrd">0</p>
+      <p name="sectorId">1</p>
+      <p name="segmentId">1</p>
+      <p name="segmentName">${sectorName}</p>
+      <p name="smsCbUsed">0</p>
+      <p name="tchRateIntraCellHo">0</p>
+      <p name="temporaryOffset">0</p>
+      <p name="throughputFactor_cs1cs4dlcs">12</p>
+      <p name="throughputFactor_cs1cs4ulcs">12</p>
+      <p name="throughputFactor_mcs1mcs4ulcs">16</p>
+      <p name="throughputFactor_mcs1mcs9dlcs">30</p>
+      <p name="throughputFactor_mcs1mcs9ulcs">30</p>
+      <p name="timeHysteresis">0</p>
+      <p name="timeLimitCall">15</p>
+      <p name="timeLimitHandover">5</p>
+      <p name="timerPeriodicUpdateMs">40</p>
+      <p name="trxPriorityInTchAlloc">3</p>
+      <p name="ulNoiseLevel">3</p>
+      <p name="underlayHoppingMode">0</p>
+      <p name="underlayMaAllocationId">0</p>
+      <p name="underlayMaioOffset">0</p>
+      <p name="underlayMaioStep">1</p>
+      <p name="usedMobileAllocation">79</p>
+      <p name="utranQualRxLevelMargin">2</p>
+      <p name="utranThresholdReselection">6</p>
+      <p name="wcdmaPriority">3</p>
+    </managedObject>
+    <managedObject class="TRX" version="S15" distName="PLMN-PLMN/BSC-322855/BCF-1/BTS-1/TRX-1" id="2125126">
+      <p name="adminState">1</p>
+      <p name="autoConfig">0</p>
+      <p name="bbUnitSupportsEdge">1</p>
+      <p name="channel0AdminState">1</p>
+      <p name="channel0Maio">0</p>
+      <p name="channel0Pcm">65535</p>
+      <p name="channel0Subslot">255</p>
+      <p name="channel0Tsl">255</p>
+      <p name="channel0Type">4</p>
+      <p name="channel1AdminState">1</p>
+      <p name="channel1Maio">0</p>
+      <p name="channel1Pcm">65535</p>
+      <p name="channel1Subslot">255</p>
+      <p name="channel1Tsl">255</p>
+      <p name="channel1Type">3</p>
+      <p name="channel2AdminState">1</p>
+      <p name="channel2Maio">0</p>
+      <p name="channel2Pcm">65535</p>
+      <p name="channel2Subslot">255</p>
+      <p name="channel2Tsl">255</p>
+      <p name="channel2Type">0</p>
+      <p name="channel3AdminState">1</p>
+      <p name="channel3Maio">0</p>
+      <p name="channel3Pcm">65535</p>
+      <p name="channel3Subslot">255</p>
+      <p name="channel3Tsl">255</p>
+      <p name="channel3Type">0</p>
+      <p name="channel4AdminState">1</p>
+      <p name="channel4Maio">0</p>
+      <p name="channel4Pcm">65535</p>
+      <p name="channel4Subslot">255</p>
+      <p name="channel4Tsl">255</p>
+      <p name="channel4Type">0</p>
+      <p name="channel5AdminState">1</p>
+      <p name="channel5Maio">0</p>
+      <p name="channel5Pcm">65535</p>
+      <p name="channel5Subslot">255</p>
+      <p name="channel5Tsl">255</p>
+      <p name="channel5Type">0</p>
+      <p name="channel6AdminState">1</p>
+      <p name="channel6Maio">0</p>
+      <p name="channel6Pcm">65535</p>
+      <p name="channel6Subslot">255</p>
+      <p name="channel6Tsl">255</p>
+      <p name="channel6Type">0</p>
+      <p name="channel7AdminState">1</p>
+      <p name="channel7Maio">0</p>
+      <p name="channel7Pcm">65535</p>
+      <p name="channel7Subslot">255</p>
+      <p name="channel7Tsl">255</p>
+      <p name="channel7Type">0</p>
+      <p name="daPool_ID">65535</p>
+      <p name="directAccessLevel">0</p>
+      <p name="gprsEnabledTrx">1</p>
+      <p name="halfRateSupport">1</p>
+      <p name="initialFrequency">70</p>
+      <p name="lapdLinkName">V0101</p>
+      <p name="lapdLinkNumber">2464</p>
+      <p name="numberOfTrxRfPowerLevels">16</p>
+      <p name="optimumRxLevDL">0</p>
+      <p name="optimumRxLevUL">0</p>
+      <p name="preferredBcchMark">1</p>
+      <p name="subslotsForSignalling">255</p>
+      <p name="trxAbilities">1</p>
+      <p name="trxFrequencyType">0</p>
+      <p name="trxRfPower">15135</p>
+      <p name="tsc">7</p>
+    </managedObject>
+    <managedObject class="HOC" version="S15" distName="PLMN-PLMN/BSC-322855/BCF-1/BTS-1/HOC-1" id="2125104">
+      <p name="allAdjacentCellsAveraged">0</p>
+      <p name="allInterfCellsAveraged">0</p>
+      <p name="allUtranAdjAver">0</p>
+      <p name="amhTrafficControlIUO">0</p>
+      <p name="amhTrafficControlMCN">1</p>
+      <p name="amhTrhoPbgtMargin">-5</p>
+      <p name="averagingWindowSizeAdjCell">6</p>
+      <p name="enaFastAveCallSetup">1</p>
+      <p name="enaFastAveHo">1</p>
+      <p name="enaFastAvePc">1</p>
+      <p name="enaHierCellHo">0</p>
+      <p name="enaTchAssSuperIuo">0</p>
+      <p name="enableInterFrtIuoHo">0</p>
+      <p name="enableIntraHoDl">0</p>
+      <p name="enableIntraHoUl">0</p>
+      <p name="enableMsDistance">0</p>
+      <p name="enablePowerBudgetHo">1</p>
+      <p name="enableSddchHandover">0</p>
+      <p name="enableUmbrellaHo">1</p>
+      <p name="failMoveThreshold">50</p>
+      <p name="fddMultiratRep">0</p>
+      <p name="fddRepThr2">11</p>
+      <p name="gsmPlmnPriorisation">0</p>
+      <p name="hoAvaragingLevDLWeighting">2</p>
+      <p name="hoAvaragingLevDlWindowSize">4</p>
+      <p name="hoAveragingLevUlWeighting">2</p>
+      <p name="hoAveragingLevUlWindowSize">4</p>
+      <p name="hoAveragingQualDlWeighting">2</p>
+      <p name="hoAveragingQualDlWindowSize">2</p>
+      <p name="hoAveragingQualUlWeighting">2</p>
+      <p name="hoAveragingQualUlWindowSize">2</p>
+      <p name="hoPeriodPbgt">6</p>
+      <p name="hoPeriodUmbrella">6</p>
+      <p name="hoTLDlPx">2</p>
+      <p name="hoTLDlRxLevel">15</p>
+      <p name="hoTLUlNx">3</p>
+      <p name="hoTLUlPx">2</p>
+      <p name="hoTLUlRxLevel">12</p>
+      <p name="hoTQDlNx">3</p>
+      <p name="hoTQDlPx">2</p>
+      <p name="hoTQDlRxQual">5</p>
+      <p name="hoTQUlNx">3</p>
+      <p name="hoTQUlPx">2</p>
+      <p name="hoTQUlRxQual">5</p>
+      <p name="hoThrInterferenceDlNx">1</p>
+      <p name="hoThrInterferenceDlPx">1</p>
+      <p name="hoThresholdsInterferenceDlRxLevel">35</p>
+      <p name="hoThresholdsInterferenceULNx">1</p>
+      <p name="hoThresholdsInterferenceULPx">1</p>
+      <p name="hoThresholdsInterferenceULRxLevel">35</p>
+      <p name="hoThresholdsLevDLNx">3</p>
+      <p name="interSystemDa">0</p>
+      <p name="intfCellAvgWindowSize">10</p>
+      <p name="intfCellNbrOfZeroResults">2</p>
+      <p name="intraHoLoRxLevLimAmrHr">10</p>
+      <p name="intraHoLoRxQualLimAmr">7</p>
+      <p name="intraHoUpRxLevLimAmrHr">63</p>
+      <p name="lowerSpeedLimit">0</p>
+      <p name="minBsicDecodeTime">10</p>
+      <p name="minIntBetweenHoReq">10</p>
+      <p name="minIntBetweenUnsuccHoAttempt">20</p>
+      <p name="minIntIuoHoReqBQ">10</p>
+      <p name="minIntUnsuccIsHo">3</p>
+      <p name="minIntUnsuccIuoHo">20</p>
+      <p name="msDHoThrParamN8">1</p>
+      <p name="msDistanceAveragingParamHreqave">10</p>
+      <p name="msDistanceHoThresholdParamMsRangeMax">63</p>
+      <p name="msDistanceHoThresholdParamP8">1</p>
+      <p name="msSpeedAveraging">4</p>
+      <p name="msSpeedDetectionState">0</p>
+      <p name="msSpeedThresholdNx">6</p>
+      <p name="msSpeedThresholdPx">3</p>
+      <p name="noOfZeroResUtran">5</p>
+      <p name="nonBcchLayerAccessThr">15</p>
+      <p name="nonBcchLayerExitThr_nx">4</p>
+      <p name="nonBcchLayerExitThr_px">2</p>
+      <p name="numberOfZeroResults">2</p>
+      <p name="qSearchC">15</p>
+      <p name="reportingOffset1800">0</p>
+      <p name="reportingOffset1900">0</p>
+      <p name="reportingOffset850">0</p>
+      <p name="reportingOffset900">0</p>
+      <p name="reportingOffsetFdd">0</p>
+      <p name="reportingThreshold1800">0</p>
+      <p name="reportingThreshold1900">0</p>
+      <p name="reportingThreshold850">0</p>
+      <p name="reportingThreshold900">0</p>
+      <p name="reportingThresholdFdd">0</p>
+      <p name="rxLevel">12</p>
+      <p name="servingBandReporting">2</p>
+      <p name="superReuseBadCiThresholdCiRatio">10</p>
+      <p name="superReuseBadCiThresholdNx">6</p>
+      <p name="superReuseBadCiThresholdPx">2</p>
+      <p name="superReuseEstMethod">0</p>
+      <p name="superReuseGoodCiThresholdCiRatio">17</p>
+      <p name="superReuseGoodCiThresholdNx">10</p>
+      <p name="superReuseGoodCiThresholdPx">8</p>
+      <p name="upperSpeedLimit">0</p>
+      <p name="utranAveragingNumber">6</p>
+      <p name="utranHoThScTpdc">80</p>
+      <p name="wcdmaRanCellPenalty">127</p>
+    </managedObject>
+  </cmData>
+</raml>
