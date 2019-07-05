@@ -15,7 +15,14 @@ public class App {
 
     public static void main(String[] args) {
         Raml raml = JAXB.unmarshal(new File("C:\\Users\\Hi\\IdeaProjects\\dump-generator\\src\\main\\resources\\dump-sample-01.xml"), Raml.class);
-        System.out.println(raml.getCmData().getType());
+        System.out.println("type: "+ raml.getCmData().getType());
+        System.out.println("id: "+ raml.getCmData().getManagedObject().get(0).getId());
+        System.out.println("distName: "+ raml.getCmData().getManagedObject().get(0).getDistName());
+        System.out.println("Version: "+ raml.getCmData().getManagedObject().get(0).getVersion());
+        System.out.println("class: "+ raml.getCmData().getManagedObject().get(0).getClassAttr());
+        System.out.println("P.Name: "+ raml.getCmData().getManagedObject().get(0).getP().get(0).getName());
+        System.out.println("P.value: "+ raml.getCmData().getManagedObject().get(0).getP().get(0).getValue());
+        //print class and distname
         try {
             InputStream inp = new FileInputStream("C:\\Users\\Hi\\IdeaProjects\\dump-generator\\src\\main\\resources\\dump-input.xlsx");
             Workbook wb = WorkbookFactory.create(inp);

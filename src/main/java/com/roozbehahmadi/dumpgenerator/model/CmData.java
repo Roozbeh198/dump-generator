@@ -10,7 +10,7 @@ public class CmData {
     @XmlAttribute
     private String type;
     private Object header;
-    private List<Object> managedObject;
+    private List<ManagedObject> managedObject;
 
     public String getType() {
         return type;
@@ -28,11 +28,11 @@ public class CmData {
         this.header = header;
     }
 
-    public List<Object> getManagedObject() {
+    public List<ManagedObject> getManagedObject() {
         return managedObject;
     }
 
-    public void setManagedObject(List<Object> managedObject) {
+    public void setManagedObject(List<ManagedObject> managedObject) {
         this.managedObject = managedObject;
     }
 }
